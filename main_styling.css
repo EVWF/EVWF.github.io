@@ -1,0 +1,80 @@
+
+.paragraphs {
+    border: 5px outset red;
+    background-color:rgb(16, 22, 22);
+    text-align: left;
+    color: white;
+    width: 800px;
+    font-size: 25px;
+
+}
+
+.headings {
+    border: 5px outset red;
+    background-color: rgb(13, 22, 22);
+    text-align: center;
+    color: white;
+    width: 1000px;
+    height: 80px;
+    font-size: 50px;
+
+}
+
+a:link {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+.images-small {
+  border: 5px outset maroon;
+  height: 300px;
+}
+.images-big {
+  border: 5px outset maroon;
+  height: 500px;
+}
+figcaption { 
+  border: 2px outset rgb(223, 26, 26);
+    background-color:rgb(16, 22, 22);
+    text-align: center;
+    color: white;
+    width: 500px;
+    font-size: 15px;
+}
+
+
+/* Styling Grid */
+.grid-container {
+    display: grid;
+    grid-template-rows: 100px 100px 100px 100px;
+    grid-template-columns: 100px;
+    row-gap: 10px;
+    column-gap: 20px;
+  }
+  .grid-item {
+    background-color: rgb(63, 50, 50);
+    color: white;
+    border: 3px solid red;
+    width: 300px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 30px;
+  }
+
+  .form {
+    border: 5px outset rgb(139, 10, 10);
+    background-color:rgb(0, 0, 0);
+    text-align: left;
+    border-width: 50px;
+    background-size:200px;
+    font-size: 30px;
+    color:white;
+  }
